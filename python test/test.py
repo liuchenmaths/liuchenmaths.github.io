@@ -1,13 +1,9 @@
-import random
+import os
+import time
 
-ALL_CHARS = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
-
-def generate_code(code_len=4):
-    code = ''
-    for _ in range(code_len):
-        index = random.randrange(0, len(ALL_CHARS))
-        code += ALL_CHARS[index]
-    return code
-
-for _ in range(10):
-    print(generate_code())
+content = '北 京 欢 迎 你 为 你 开 天 辟 地           '
+while True:
+    os.system('clear')
+    print(content)
+    time.sleep(0.1)
+    content = content[1:] + content[0]
