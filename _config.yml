@@ -3,15 +3,15 @@ title: LC Blog
 SEOTitle: 刘晨的博客 | LC Blog
 header-img: img/post-bg-desk.jpg
 email: liuchen_maths@gmail.com
-description: "Life consists not in holding good cards but in playing those you hold well."
-keyword: "LC, LC Blog, 刘晨的博客, 刘晨, liuchenmaths, 数学, 统计学, 英语, 政治, Python, 金融, 经济学"
+description: "一个小不溜"
+keyword: "LC, LC Blog, 刘晨的博客, 刘晨, liuchenmaths, 数学, 统计学, 英语, Python, 金融, 经济学"
 url: "http://liuchenmaths.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/liuchenmaths/liuchenmaths.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Life consists not in holding good cards but in playing those you hold well."
+sidebar-about-description: "一个小不溜"
 sidebar-avatar: /img/blueface.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
